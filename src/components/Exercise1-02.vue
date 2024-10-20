@@ -8,7 +8,7 @@
 export default {
     data() {
         return {
-            title: 'My first component!',
+            title: 'Component without uppercase',
             isUppercase: false,
         }
     },
