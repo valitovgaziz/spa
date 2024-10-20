@@ -23,5 +23,9 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../styles/typography.scss'
+@import '../styles/typography.scss';
+h1 {
+    font-size: 50px;
+    color: $color-blue; // Use variables from imported stylecheets
+}
 </style>
